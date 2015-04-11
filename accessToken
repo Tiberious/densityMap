@@ -1,2 +1,11 @@
-website: https://developers.facebook.com/tools/explorer
-access token: CAACEdEose0cBAEXRWbrNOTpDG0Dbww0s7BXmZBqftVUXy75HZB8odi3W3Ns0SreEcTlPZCOkhhKkE5uxvL0qVburzU25XFqFirjEvPDDEB2WQRZAwUm00gmZBZBGiX715lRjHsQra49ZA9zZCmoOzBZAwWdyD4YdEPpCweWtZCZBZB18aYZBDPioqUB2aFtarMx3Ek7XYkS8xq7T6AENWv4Ko2XfRKvvw9Mnzsr8ZD
+website: https://dev.twitter.com/rest/public/search-by-place
+https://dev.twitter.com/rest/reference/get/geo/search
+
+commands:
+GET geo/id/:place_id
+GET geo/reverse_geocode
+GET geo/search
+POST geo/place
+GET trends/place
+
+access token: 
