@@ -1,0 +1,13 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	background-color: #42C0FF;
+	color: #fff;
+	margin: 0;
+	padding: 1%;
+	text-align: center;
+}
+
+#map { height: 400px; }

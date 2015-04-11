@@ -13,14 +13,15 @@ if credentials["consumer_key"] == "FILL_IN"
 end
 
 TweetStream.configure do |config|
-  config.consumer_key       = credentials["consumer_key"]
-  config.consumer_secret    = credentials["consumer_secret"]
-  config.oauth_token        = credentials["oauth_token"]
-  config.oauth_token_secret = credentials["oauth_token_secret"]
-  config.auth_method        = :oauth
+    config.consumer_key       = 'cVcIw5zoLFE2a4BdDsmmA'
+    config.consumer_secret    = 'yYgVgvTT9uCFAi2IuscbYTCqwJZ1sdQxzISvLhNWUA'
+    config.oauth_token        = '4618-H3gU7mjDQ7MtFkAwHhCqD91Cp
+                                 4RqDTp1AKwGzpHGL3I'
+    config.oauth_token_secret = 'xmc9kFgOXpMdQ590Tho2gV7fE71v5OmBrX8qPGh7Y'
+    config.auth_method        = :oauth
 end
 
-log = Logger.new( 'data/geo-data-2.tsv', shift_age = 'daily')
+log = Logger.new( 'data/geo-data-5.tsv', shift_age = 'daily')
 
 log.formatter = proc do |severity, datetime, progname, msg|
   "#{msg}\n"
